@@ -1,0 +1,51 @@
+
+body {
+  padding-top: 5rem;
+}
+.my-template {
+  padding: 3rem 1.5rem;
+  /* text-align: center; */
+}
+
+.hero-image {
+    background-image: url("../images/socomp-banner.jpg");
+
+    /* Set a specific height */
+    height: 250px;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.footer {
+  /* position: absolute; */
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+table tr {
+  /*display: block;*/
+  border-bottom: 0.5px solid lightgrey;
+}
+
+a {
+  color: #3c7acc;
+}
+a:hover {
+  color: #aac6f0;
+}
+
+.item-steps {
+  margin-left: 30px;
+}
+
+.list-group-item {
+  display: list-item;
+}
